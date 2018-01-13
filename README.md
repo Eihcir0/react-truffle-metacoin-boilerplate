@@ -14,6 +14,7 @@ npm install
 ```
 truffle compile
 ```
+```
 (new terminal window)
 ganache-cli
 ```
