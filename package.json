@@ -2,11 +2,13 @@
   "name": "react_boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
   "scripts": {
-    "webpack": "webpack",
-    "start": "webpack -w -d --display-error-details"
+    "lint": "eslint ./",
+    "build": "webpack -w -d --display-error-details",
+    "dev": "webpack-dev-server",
+    "start": "webpack-dev-server"
   },
+  "main": "webpack.config.js",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^6.4.1",
@@ -19,7 +21,8 @@
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "truffle": "^4.0.4",
-    "webpack": "^1.15.0"
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^2.10.1"
   },
   "babel": {
     "presets": [
